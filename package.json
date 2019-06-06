@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "cross-env SSR=1 nodemon src/index.js --exec babel-node"
+    "start": "cross-env SSR=1 nodemon src/index.js --exec babel-node",
+    "build": "cross-env SSR=1 babel src -d dist",
+    "serve": "cross-env SSR=1 node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,6 @@
     "serve-static": "^1.14.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
