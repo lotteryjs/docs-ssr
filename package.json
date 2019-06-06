@@ -1,0 +1,40 @@
+{
+  "name": "docsify.lotteryjs.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "cross-env SSR=1 nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotteryjs/docsify.lotteryjs.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotteryjs/docsify.lotteryjs.com/issues"
+  },
+  "homepage": "https://github.com/lotteryjs/docsify.lotteryjs.com#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "connect": "^3.7.0",
+    "lru-cache": "^5.1.1",
+    "marked": "^0.6.2",
+    "node-fetch": "^2.6.0",
+    "prismjs": "^1.16.0",
+    "resolve-pathname": "^3.0.0",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "template": "template.html",
+  "maxAge": 5000, 
+  "docs": {
+    "name": "Deep-Docsify",
+    "repo": "lotteryjs/docsify.lotteryjs.com",
+    "basePath": "https://raw.githubusercontent.com/lotteryjs/docsify.lotteryjs.com/master/",
+    "auto2top": true
+  }
+}
