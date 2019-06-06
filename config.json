@@ -1,6 +1,6 @@
 {
   "template": "template.html",
-  "maxAge": 5000, 
+  "maxAge": 60, 
   "docs": {
     "name": "Deep-Docsify",
     "repo": "lotteryjs/docsify.lotteryjs.com",
