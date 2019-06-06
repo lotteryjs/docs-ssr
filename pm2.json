@@ -1,0 +1,9 @@
+{
+  "name": "doc-ssr",
+  "script": "dist/index.js",
+  "instances": "1",
+  "env": {
+    "SSR": "1",
+    "NODE_ENV": "production"
+  }
+}
