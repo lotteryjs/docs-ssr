@@ -1,15 +1,18 @@
 FROM keymetrics/pm2:latest-alpine
 
+WORKDIR /data/site
+
 # Bundle APP files
 COPY src src/
 COPY package.json .
+COPY package-lock.json .
 COPY .babelrc .
-
-VOLUME [ "pm2.json", "config.json", "template.html" ]
 
 # Install app dependencies
 ENV NPM_CONFIG_LOGLEVEL warn
 RUN npm install
+
+# build
 RUN npm run build
 
 # Show current folder structure in logs

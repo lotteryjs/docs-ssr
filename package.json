@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "cross-env SSR=1 nodemon src/index.js --exec babel-node",
-    "build": "rm -rf dist && cross-env SSR=1 babel src -d dist",
+    "build": "rm -rf dist && npx cross-env SSR=1 npx babel src -d dist",
     "start": "cross-env SSR=1 node dist/index.js"
   },
   "repository": {
