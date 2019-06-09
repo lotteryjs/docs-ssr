@@ -1,3 +1,9 @@
+### Debug(VSCode)
+```sh
+npm run dev 
+# F5-->附加到进程
+```
+
 ### How to use this image
 
 ```sh
