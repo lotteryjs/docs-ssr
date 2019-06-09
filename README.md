@@ -1,7 +1,12 @@
+
+### 介绍
+
+这个项目是从 [docsify-server-renderer](https://github.com/docsifyjs/docsify/tree/develop/packages/docsify-server-renderer) 抽出来方便以后定制的。
+
 ### Debug(VSCode)
 ```sh
 npm run dev 
-# F5-->附加到进程
+# F5 附加到进程，下断点调试即可
 ```
 
 ### How to use this image
