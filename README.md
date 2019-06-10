@@ -3,6 +3,10 @@
 
 这个项目是从 [docsify-server-renderer](https://github.com/docsifyjs/docsify/tree/develop/packages/docsify-server-renderer) 抽出来方便以后定制的。
 
+### Awesome
+
+[docsify.lotteryjs.com](https://github.com/lotteryjs/docsify.lotteryjs.com)
+
 ### Debug(VSCode)
 ```sh
 npm run dev 
