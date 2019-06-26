@@ -25,8 +25,8 @@ server.use(function (req, res) {
   ) {
     res.writeHead(404);
     res.end();
-  }
-  Promise.resolve(cached.get(req.url) || renderer.renderToString(req.url))
+  } else {
+    Promise.resolve(cached.get(req.url) || renderer.renderToString(req.url))
     .then(function (html) {
       cached.set(req.url);
       res.end(html);
@@ -36,6 +36,7 @@ server.use(function (req, res) {
       res.writeHead(404);
       res.end();
     });
+  }
 });
 
 server.listen(port);
